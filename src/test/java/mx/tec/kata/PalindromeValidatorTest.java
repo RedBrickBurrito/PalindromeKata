@@ -44,7 +44,7 @@ class PalindromeValidatorTest {
 	@Test
 	void Given_3DifferentLetterString_WhenValidatingPalindrome_ThenTrue() {
 		//Given
-		String string = "aba";
+		String string = "aaa";
 		//When
 		boolean actualResult = validator.validate(string);
 		boolean expectedResult = true;
